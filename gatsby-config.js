@@ -15,7 +15,7 @@ module.exports = {
     {
       resolve: "gatsby-source-wordpress",
       options: {
-        url: process.env.WPGRAPHQL_URL,
+        url: process.env.WPGRAPHQL_URL || `https://dep.plus/graphql`,
       },
     },
     "gatsby-plugin-sharp",
