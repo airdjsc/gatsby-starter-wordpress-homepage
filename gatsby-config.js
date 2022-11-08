@@ -17,7 +17,7 @@ module.exports = {
       options: {
         url: process.env.WPGRAPHQL_URL || `https://dep.plus/graphql`,
         schema: {
-          perPage: 100,
+          perPage: 10,
         },
       },
     },
